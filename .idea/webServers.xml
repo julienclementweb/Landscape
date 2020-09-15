@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3f28f6e3-6282-4487-a343-1b9aa561f11c" name="localhost" url="http://localhost/parallax">
+        <fileTransfer mountedRoot="C:\wamp64\www\parallax" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

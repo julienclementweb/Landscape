@@ -1,5 +1,15 @@
+/* GENERAL */
+
 html, body {
     height: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
 }
 p {
     color: white;
@@ -9,6 +19,44 @@ p {
 }
 #p2 {
     color: black;
+}
+h2 {
+    font-family: 'Sen', sans-serif;
+    padding-bottom: 30px;
+}
+h3 {
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.black a:hover {
+    color: wheat;
+    text-shadow: 0px 3px 2px black;
+    transition: 400ms;
+}
+.white a {
+    color: wheat;
+    text-shadow: 0px 3px 2px black;
+    transition: 400ms;
+}
+.white a:hover {
+    color: black;
+    text-shadow: 0px 3px 2px burlywood;
+    transition: 400ms;
+}
+
+
+
+/* PART 1 */
+
+#regularContainer {
+    background-image: url(images/luca-bravo-O453M2Liufs-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 hr {
     border: 1px solid white;
@@ -32,25 +80,10 @@ h1 {
     opacity: 0.3;
 }
 
-h2 {
-    font-family: 'Sen', sans-serif;
-    padding-bottom: 30px;
-}
-h3 {
-    font-family: 'Sen', sans-serif;
-    text-align: center;
-    color: white;
-    text-shadow: 1px 1px 2px black;
-}
 
-#regularContainer {
-    background-image: url(images/luca-bravo-O453M2Liufs-unsplash.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
+
+/* PART 2 */
+
 #parallaxContainer {
     background-image: url(images/luca-bravo-O453M2Liufs-unsplash.jpg);
     background-color: burlywood;
@@ -78,8 +111,11 @@ h3 {
     padding: 40px;
     text-align: center;
     box-shadow: 2px 2px 3px black;
-
 }
+
+
+/* PART 3 */
+
 #regularContainer2 {
     background-image: url(images/artem-beliaikin-8AsKha7aIvk-unsplash.jpg);
     background-attachment: fixed;
@@ -115,6 +151,10 @@ h3 {
     font-weight: bold;
     text-shadow: 0px 3px 2px wheat;
 }
+
+
+/* PART 4 */
+
 #regularContainer3 {
     background-image: url(images/marc-zimmer-yktwU2t1qHA-unsplash.jpg);
     background-attachment: fixed;
@@ -130,6 +170,10 @@ h3 {
     font-weight: bold;
     text-shadow: 0px 3px 2px wheat;
 }
+
+
+
+/* CONTENTS & BOXES */
 
 .content {
     margin: 0 auto;
@@ -154,7 +198,6 @@ h3 {
     opacity: 0.6;
     text-align: center;
     box-shadow: 2px 2px 3px black;
-
 }
 .content3 .box2 h3 {
     color: black;
@@ -162,6 +205,11 @@ h3 {
 .contentRight {
     padding-left: 60px;
 }
+
+
+
+/* FOOTER */
+
 .footer {
     margin: 0 -15px 0 -15px;
     height: 80px;
